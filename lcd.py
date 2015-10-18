@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# python 2.7
+#!/usr/bin/python3
+# python3
 # LCD clock script
 # requires colorama, termcolor, and pyfiglet
 # Created by Lance Brignoni
@@ -31,4 +31,4 @@ while True:
 	#get_time =  strftime("%I : %M : %S %p")
 	cprint(figlet_format(get_time, font='starwars'), 'white')
 	time.sleep(1)
-	print "\033c"
+	print("\033c")
